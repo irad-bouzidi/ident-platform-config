@@ -1,1 +1,6 @@
-
+version: 1
+consumer:
+  id: test-id
+  display_name: Test Company
+  country_codes:
+    - de
