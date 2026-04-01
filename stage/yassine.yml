@@ -1,1 +1,24 @@
-
+version: 1
+consumer:
+  id: test-id-new
+  display_name: Test Company
+  country_codes:
+    - de
+products:
+  - name: test
+    risk_class: HIGH
+    by_country: []
+redirects:
+  safe-redirect-hosts:
+    - test.com
+security:
+  inbound:
+    auth:
+      consumer_resolution:
+        source: jwt
+        claim: test
+      required_scopes:
+        - test
+  outbound:
+    webhook:
+      mtls_profile: test
