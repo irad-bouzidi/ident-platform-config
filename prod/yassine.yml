@@ -4,10 +4,7 @@ consumer:
   display_name: Test Company
   country_codes:
     - de
-products:
-  - name: test
-    risk_class: HIGH
-    by_country: []
+products: []
 redirects:
   safe-redirect-hosts:
     - test.com
