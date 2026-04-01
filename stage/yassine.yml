@@ -1,13 +1,10 @@
 version: 1
 consumer:
-  id: test-id
+  id: test-id-test-stage
   display_name: Test Company
   country_codes:
     - de
-products:
-  - name: test
-    risk_class: HIGH
-    by_country: []
+products: []
 redirects:
   safe-redirect-hosts:
     - test.com
